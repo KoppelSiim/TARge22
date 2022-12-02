@@ -17,7 +17,7 @@ def lahuta():
 
 if __name__ == "__main__":
     #nimi()
-    lahuta()
+    #lahuta()
     
 
     
