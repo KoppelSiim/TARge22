@@ -21,7 +21,7 @@ while True:
         # if we don't have animals that begin with the letter then add to the letter list
         if(name[0]) not in letters:
             letters.append(name[0])
-# loop over all the first letters
+# loop over all the letters
 for i in range(len(letters)):
     # print the letter, add space to the end instead of newline
     print(f"{letters[i]} –", end=" ")
