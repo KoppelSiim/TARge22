@@ -8,8 +8,8 @@ Sisend -< Karu, Kass, Koaala, Siil, Saarmas, Rebane
 Tulem: K – Koaala S – Saarmas R – Rebane
 """
 
-animals = []
-letters = []
+animals = [] # list of all the animals
+letters = [] # list of all the first letters of the animals
 
 while True:
     # capitalize the first letter
@@ -31,7 +31,7 @@ for i in range(len(letters)):
         if letters[i] == animals[j][0]:
             longest_word_len = len(animals[j])
             longest_word = animals[j]
-            # test if the length of the animal is the longest
+            # test if the length of the word is the longest
             if len(animals[j]) > longest_word_len:
                 longest_word_len = len(animals[j])
                 longest_word = animals[j]
