@@ -10,7 +10,8 @@ Tulem: K – Koaala S – Saarmas R – Rebane
 
 animals = [] # list of all the animals
 letters = [] # list of all the first letters of the animals
-
+longest_word_len = 0
+longest_word = ""
 while True:
     # capitalize the first letter
     name = input("Sisesta looma nimi: ").capitalize()
@@ -29,11 +30,13 @@ for i in range(len(letters)):
     for j in range(len(animals)):
         # if the first letter is the same as our letter
         if letters[i] == animals[j][0]:
-            longest_word_len = len(animals[j])
-            longest_word = animals[j]
             # test if the length of the word is the longest
             if len(animals[j]) > longest_word_len:
                 longest_word_len = len(animals[j])
                 longest_word = animals[j]
     print(longest_word)
+    # reset the len and word
+    longest_word_len = 0
+    longest_word = ""
+    
 
