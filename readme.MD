@@ -1,6 +1,6 @@
-# Targe22 programmerimise alused
+# Targe22
 
-Minu tehtud tööd antud aines.
+Minu tehtud tööd.
 
 
 
